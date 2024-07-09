@@ -32,6 +32,7 @@ function drawLine(x0, y0, x1, y1, color) {
     ctx.moveTo(x0, y0);
     ctx.lineTo(x1, y1);
     ctx.strokeStyle = color;
+    ctx.lineWidth = 10;
     ctx.stroke();
 }
 
